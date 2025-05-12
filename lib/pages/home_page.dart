@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_app/pages/home_page.dart';
 import 'package:quiz_app/pages/quiz_page.dart';
 import 'package:quiz_app/style/app_colors.dart';
 import 'package:quiz_app/style/app_texts.dart';
@@ -33,7 +32,7 @@ class HomePage extends StatelessWidget {
                 onTap: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => const QuizPage()),
+                    MaterialPageRoute(builder: (context) =>  QuizPage()),
                   );
                 },
                 child: Container(
